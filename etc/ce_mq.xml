@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Rcason_Mq:etc/ce_mq.xsd">
+    <ceQueue name="product.updates" broker="mysql"
+        messageSchema="int"
+        consumerInterface="Rcason\MqExample\Model\ExampleConsumer"/>
+</config>
