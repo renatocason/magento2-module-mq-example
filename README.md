@@ -22,6 +22,7 @@ $ bin/magento setup:upgrade
 $ bin/magento ce_mq:queues:list
 ```
 _product.updates_ should appear in the list if available queues.
+
 2. Launch the consumer (and leave it running)
 ```bash
 $ bin/magento ce_mq:consumers:start product.updates
